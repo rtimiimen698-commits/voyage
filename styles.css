@@ -1,0 +1,79 @@
+body {
+    background-color: #fcfcfc;
+    color: #444;
+}
+
+.logo-brand {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo-brand span {
+    color: #ff5a5f;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=80') no-repeat center center/cover;
+    height: 75vh;
+}
+
+.btn-brand {
+    background-color: #ff5a5f;
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-brand:hover {
+    background-color: #e0484d;
+    color: white;
+}
+
+.btn-outline-brand {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    transition: all 0.3s;
+}
+
+.btn-outline-brand:hover {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+.text-brand {
+    color: #ff5a5f !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ff5a5f;
+    margin: 10px auto 0;
+}
+
+.destination-card {
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-8px);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffeef0;
+    color: #ff5a5f;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 95, 0.25);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #ff5a5f;
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 95, 0.25);
+}
